@@ -27,7 +27,7 @@ function game(){
     let winner = [];
     for (let i = 0; i < 5; i++) {
         const computerSelection = computerPlay();
-        const playerSelection = prompt("Select!");
+        const playerSelection = prompt("Write and Select! 'rock, paper, or scissor' ");
         winner = playRound (playerSelection, computerSelection);
     }
         if (winner[0]<winner[1]){
